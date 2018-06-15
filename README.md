@@ -32,6 +32,7 @@ Docker Image built with Debian Oracle JDK and Maven (optional). Using this image
 
 4) save this script inside your home folder and run it.
 
+```sh
     $ chmod +x ~/run-container.sh 
     $ ~/run-container.sh
 ```       
