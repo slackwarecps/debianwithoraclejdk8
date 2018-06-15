@@ -13,9 +13,13 @@ Docker Image built with Debian Oracle JDK and Maven (optional). Using this image
 3) Download the script (built for linux, but you can adjust it to run in Windows) ;)
 
     #begin of file run-container.sh
+    
+    
     clear
     echo "[X] Stoping os containers.........."
-    echo "================================================================="
+    
+    
+    echo " ================================================================= "
     docker stop -t 0 container-debianwithoraclejdk8
     echo " "
     echo "[X] erasing container.........."
