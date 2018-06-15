@@ -12,9 +12,8 @@ Docker Image built with Debian Oracle JDK and Maven (optional). Using this image
     
 3) Download the script (built for linux, but you can adjust it to run in Windows) ;)
 
-    #begin of file run-container.sh
-    
-    
+```sh
+
     clear
     echo "[X] Stoping os containers.........."
     
@@ -30,6 +29,7 @@ Docker Image built with Debian Oracle JDK and Maven (optional). Using this image
     BASEPROJETO=/home/somefolder/anyjavafolder
     docker run -it --name container-debianwithoraclejdk8 -p 5000:5000 -v "$BASEPROJETO:/opt/projeto" -v"$HOME/.m2:/root/.m2"  fabioalvaro/debianwithoraclejdk8:latest 
     #end of file 
+```   
 
 4) save this script inside your home folder and run it.
 
