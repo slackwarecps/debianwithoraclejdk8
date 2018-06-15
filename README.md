@@ -2,9 +2,9 @@
 Docker Image built with Debian Oracle JDK and Maven (optional). Using this image you can equalize the environmnt with java 
 
 
-# how to create the complete Debian + JDK 8 + Maven environment
+# How to create the complete Debian + JDK 8 + Maven environment
 
-1) I need to be able to run docker
+1) Of course, you wil need to be able to run docker
 
 2) Download the image at docker pull fabioalvaro/debianwithoraclejdk8
 
