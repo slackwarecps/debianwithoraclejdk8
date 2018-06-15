@@ -7,6 +7,7 @@ Docker Image built with Debian Oracle JDK and Maven (optional). Using this image
 1) I need to be able to run docker
 
 2) Download the image at docker pull fabioalvaro/debianwithoraclejdk8
+
 ```sh
     $ docker pull fabioalvaro/debianwithoraclejdk8
 ```     
@@ -36,6 +37,7 @@ Docker Image built with Debian Oracle JDK and Maven (optional). Using this image
 ```       
     
 5) Inside the container enter in main folder and call maven command to compile the spring project:
+
 ```sh
      123123123#$ cd /opt/projeto
      123123123#$ mvn spring-boot:run
